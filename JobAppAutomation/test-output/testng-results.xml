@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-09T08:29:37 IST" name="Default suite" finished-at="2021-03-09T08:30:36 IST" duration-ms="58117">
+    <groups>
+    </groups>
+    <test started-at="2021-03-09T08:29:37 IST" name="Default test" finished-at="2021-03-09T08:30:36 IST" duration-ms="58117">
+      <class name="com.jobapp.TestCase.VerifyJobCardDetailsPage">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.jobapp.TestCase.VerifyJobCardDetailsPage@759d26fb]" started-at="2021-03-09T08:29:37 IST" name="setUpTest" finished-at="2021-03-09T08:29:41 IST" duration-ms="3560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyJobCardDetailPageFunctionality()[pri:0, instance:com.jobapp.TestCase.VerifyJobCardDetailsPage@759d26fb]" started-at="2021-03-09T08:29:57 IST" name="verifyJobCardDetailPageFunctionality" description="Test case to view job card details page working" finished-at="2021-03-09T08:30:08 IST" duration-ms="11037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobCardDetailPageFunctionality -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.jobapp.TestCase.VerifyJobCardDetailsPage@759d26fb]" started-at="2021-03-09T08:30:26 IST" name="tearDownTest" finished-at="2021-03-09T08:30:27 IST" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.jobapp.TestCase.VerifyJobCardDetailsPage -->
+      <class name="com.jobapp.TestCase.VerifyProfilePage">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.jobapp.TestCase.VerifyProfilePage@3c73951]" started-at="2021-03-09T08:29:41 IST" name="setUpTest" finished-at="2021-03-09T08:29:44 IST" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyValidUserLogin()[pri:0, instance:com.jobapp.TestCase.VerifyProfilePage@3c73951]" started-at="2021-03-09T08:30:08 IST" name="verifyValidUserLogin" description="Test Case to verify Profile page working" finished-at="2021-03-09T08:30:10 IST" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUserLogin -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.jobapp.TestCase.VerifyProfilePage@3c73951]" started-at="2021-03-09T08:30:27 IST" name="tearDownTest" finished-at="2021-03-09T08:30:29 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.jobapp.TestCase.VerifyProfilePage -->
+      <class name="com.jobapp.TestCase.VerifyUserRegister">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.jobapp.TestCase.VerifyUserRegister@3d5c822d]" started-at="2021-03-09T08:29:51 IST" name="setUpTest" finished-at="2021-03-09T08:29:54 IST" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyValidUserRegister()[pri:0, instance:com.jobapp.TestCase.VerifyUserRegister@3d5c822d]" started-at="2021-03-09T08:30:10 IST" name="verifyValidUserRegister" description="Test Case for valid user register" finished-at="2021-03-09T08:30:10 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUserRegister -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.jobapp.TestCase.VerifyUserRegister@3d5c822d]" started-at="2021-03-09T08:30:32 IST" name="tearDownTest" finished-at="2021-03-09T08:30:34 IST" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.jobapp.TestCase.VerifyUserRegister -->
+      <class name="com.jobapp.TestCase.VerifyViewMoreDetailPage">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.jobapp.TestCase.VerifyViewMoreDetailPage@6f46426d]" started-at="2021-03-09T08:29:54 IST" name="setUpTest" finished-at="2021-03-09T08:29:57 IST" duration-ms="3255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyViewMoreDetailPageFunctionality()[pri:0, instance:com.jobapp.TestCase.VerifyViewMoreDetailPage@6f46426d]" started-at="2021-03-09T08:30:10 IST" name="verifyViewMoreDetailPageFunctionality" description="Test case to view more details page working" finished-at="2021-03-09T08:30:20 IST" duration-ms="10097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewMoreDetailPageFunctionality -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.jobapp.TestCase.VerifyViewMoreDetailPage@6f46426d]" started-at="2021-03-09T08:30:34 IST" name="tearDownTest" finished-at="2021-03-09T08:30:36 IST" duration-ms="1697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.jobapp.TestCase.VerifyViewMoreDetailPage -->
+      <class name="com.jobapp.TestCase.VerifySearchPage">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.jobapp.TestCase.VerifySearchPage@73700b80]" started-at="2021-03-09T08:29:44 IST" name="setUpTest" finished-at="2021-03-09T08:29:48 IST" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:com.jobapp.TestCase.VerifySearchPage@73700b80]" started-at="2021-03-09T08:30:20 IST" name="verifySearchFunctionality" description="Test Case to verify search page working" finished-at="2021-03-09T08:30:23 IST" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.jobapp.TestCase.VerifySearchPage@73700b80]" started-at="2021-03-09T08:30:29 IST" name="tearDownTest" finished-at="2021-03-09T08:30:31 IST" duration-ms="1664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.jobapp.TestCase.VerifySearchPage -->
+      <class name="com.jobapp.TestCase.VerifyUserLogin">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.jobapp.TestCase.VerifyUserLogin@49c7b90e]" started-at="2021-03-09T08:29:48 IST" name="setUpTest" finished-at="2021-03-09T08:29:51 IST" duration-ms="3246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyInValidUserLogin()[pri:0, instance:com.jobapp.TestCase.VerifyUserLogin@49c7b90e]" started-at="2021-03-09T08:30:23 IST" name="verifyInValidUserLogin" description="Test Case for invalid user login" finished-at="2021-03-09T08:30:25 IST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInValidUserLogin -->
+        <test-method signature="verifyValidUserLogin()[pri:0, instance:com.jobapp.TestCase.VerifyUserLogin@49c7b90e]" started-at="2021-03-09T08:30:25 IST" name="verifyValidUserLogin" description="Test Case for valid user login" finished-at="2021-03-09T08:30:26 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUserLogin -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.jobapp.TestCase.VerifyUserLogin@49c7b90e]" started-at="2021-03-09T08:30:31 IST" name="tearDownTest" finished-at="2021-03-09T08:30:32 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.jobapp.TestCase.VerifyUserLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

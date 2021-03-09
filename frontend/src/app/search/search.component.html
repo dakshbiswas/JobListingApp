@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="form-group">
+        <label for="query">Search for a Job</label>
+        <input id="query" type="text" class="form-control" [(ngModel)]="query" (keyup.enter)="getSearchResults(query)">
+    </div>
+    <a routerLink="results" [queryParams]="{ myquery: query }" class="btn btn-primary">
+        Search
+    </a>
+</div>

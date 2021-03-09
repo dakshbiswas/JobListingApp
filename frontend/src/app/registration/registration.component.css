@@ -1,0 +1,20 @@
+.register-block {
+    margin: auto;
+    width: 50%;
+    padding: 2px;
+    padding-top: 2px;
+   
+    align-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.head{
+    padding-top: 11px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn-primary{
+    border-radius: 5%;
+}

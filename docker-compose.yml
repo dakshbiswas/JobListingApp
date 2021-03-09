@@ -1,0 +1,91 @@
+version: '3'
+services:
+  eurekaservice:
+    image: vijaydocker2017/fsdsba:eurekaservice
+    container_name: eureka-container
+    build: eurekaserver/
+    restart: always
+    network_mode: host
+    ports:
+      - 8761:8761      
+    healthcheck:
+      test: "exit 0"
+      
+  zuulservice:
+    image: vijaydocker2017/fsdsba:zuuluservice
+    container_name: zuuluservice-container
+    build: zuulservice/
+    restart: always
+    network_mode: host
+    ports:
+      - 8765:8765
+    healthcheck:
+      test: "exit 0"
+      
+  newsappui:
+    image: vijaydocker2017/fsdsba:newsappui
+    build: NewsappUI/
+    network_mode: host
+    container_name: angular-container
+    ports:
+      - 3000:80
+    expose: [3000] 
+    healthcheck:
+      test: "exit 0"
+      
+  mongo:
+    image: mongo:3.4-jessie
+    network_mode: host
+    container_name: mongo-container
+    ports:
+      - 27017:27017 
+   
+  rabbitmq:
+    image: rabbitmq:management
+    network_mode: host
+    container_name: rabbitmq-container
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+      
+  mysql:
+    image: mysql:5.5
+    network_mode: host
+    container_name: mysql-container
+    ports:
+      - 3306:3306    
+    environment:
+      MYSQL_DATABASENAME: sba
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: root
+      
+  userservice:
+    image: vijaydocker2017/fsdsba:userservice
+    build: userservice/
+    restart: always
+    network_mode: host
+    depends_on:
+      - eurekaservice
+    container_name: userservice-container
+    ports:
+      - 7071:7071
+      
+  favouriteservice:
+    image: vijaydocker2017/fsdsba:favouriteservice
+    build: favouriteservice/
+    restart: always
+    network_mode: host
+    container_name: favouriteservice-container
+    ports:
+      - 7072:7072
+    
+  recommendationservice:
+    image: vijaydocker2017/fsdsba:recommendationservice
+    build: articleRecommendationService/
+    restart: always
+    network_mode: host
+    container_name: articlerecommendationservice-container
+    ports:
+      - 7073:7073
+

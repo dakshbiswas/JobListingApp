@@ -1,0 +1,23 @@
+<div *ngIf="job">
+    <div class="col m5 aligned fade-in-right">
+        <ul>
+            <li>Date: {{job['publication_date'] | date}}</li>
+            <li>Company: {{job['company']['name']}}</li>
+            <li>Location: {{job['locations'][0]['name']}}</li>
+            <li>Category: {{job['categories'][0]['name']}}</li>
+            <li>Level: {{job['levels'][0]['name']}}</li>
+            <li><a href="{{job['refs']['landing_page']}}">more</a></li>
+            <li>
+                <div *ngIf="!checked && loggedIn"><button (click)="saveFavorite()">Favourite</button></div>
+                <div *ngIf="checked && loggedIn"><button (click)="deleteFavorite()">Unfavourite</button></div>
+            </li>
+        </ul>
+    </div>
+    <div class="col m7 s12">
+        <h3 class="fade-in-right" innerHtml="{{job['name']}}"></h3>
+        <div class="row">
+            <div class="col fade-in-right slower" innerHtml="{{job['contents']}}">
+            </div>
+        </div>
+    </div>
+</div>
